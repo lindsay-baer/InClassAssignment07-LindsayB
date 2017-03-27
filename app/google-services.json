@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "32400307268",
+    "firebase_url": "https://inclassassignment07-lindsayb.firebaseio.com",
+    "project_id": "inclassassignment07-lindsayb",
+    "storage_bucket": "inclassassignment07-lindsayb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32400307268:android:7d20f8f2d3bec35a",
+        "android_client_info": {
+          "package_name": "com.example.android.inclassassignment07_lindsayb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32400307268-gkvga0499jr7d1vksed14mlpd4slkpmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9DNG5zI2eN9dGTFsEinc-1WoG1rd4zvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

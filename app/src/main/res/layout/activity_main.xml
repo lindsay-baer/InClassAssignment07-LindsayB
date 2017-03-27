@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.android.inclassassignment07_lindsayb.MainActivity">
+
+<EditText
+    android:id="@+id/title_hike"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name your Hiking Trip" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Set Title"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:onClick="set" />
+
+<EditText
+    android:id="@+id/add_place"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Location" />
+
+<EditText
+    android:id="@+id/add_miles"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Miles from last leg of hike" />
+
+<CheckBox
+    android:id="@+id/been_there"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Have you hiked here before?"
+    android:textSize="18dp"
+    android:layout_margin="8dp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add"
+    android:onClick="add"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp" />
+</LinearLayout>
